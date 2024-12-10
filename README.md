@@ -8,26 +8,26 @@ This project is a web-based application to provide an electronic system for reco
 It makes use of the JavaScript, Python, SQL and Flask as key elements of the technical basis. 
 
 ### How the webpage works?
-The idea is simple. The key functions include register, login, logout, clinic profolio, inspection finding, history. There are tabs at the top of webpage for the those functions.
+The idea is simple. The key functions include register, login, logout, clinic profolio, inspection finding, history. There are tabs at the top of the webpage for those functions.
 
 1. Register, Login and Logout:
-New user is required to register to the webpage. Every user has his/her own unique user_id to register new user need to set up "username", "password" and reconfirm the "password".
-User are required to login by using correct username and pasword.
-When user need to leave the system, logout is required. 
+New user is required to register to the webpage. Every user has his/her own unique user_id to register new users need to set up "username", "password" and reconfirm the "password". Users are required to login by using the correct username and pasword. When a user needs to leave the system, logout is required.
 
-2. Clinic profolio:
-In real working enviornment, inspector is assigned to routinely perform inspection to a list of clinic which is under his/er purview. Therefore, in each user's account, the homepage only displays the clinic profolio that is handled by the user. A user is not able to view the clinic profolio of another user.
+3. Clinic profolio
+In a real working enviornment, an inspector is assigned to routinely perform inspection to a list of clinics which is under his/her purview. Therefore, in each user's account, the homepage only displays the clinic profolio that is handled by the user. A user is not able to view the clinic profolio of another user.
 
-3. Inspection finding
+4. Inspection finding
 User can input the information like clinic number, clinic name, inspection finding, inspection date and regulatory action taken to the clinic in the system.
 
-4. History
-User can view the history of the inspection finding and regulatory action taken of each clinic that was input previously.
+5. History
+User can view the history of the inspection finding and regulatory action taken of each clinic that was input previously in the inspection finding function. 
+
 
 ### Datebase
-There 3 database in SQL are used including " user", "record" and "profolio". 
+There 3 database in SQL are used including " user", "record" and "profolio". Clinic_number is the primary data shared by the 3 SQL database. Profolio table represent the background information of the clinic, which is able to amended. For record table, the data can be inserted by using the inspection finding functing. 
 
 ### Possible improvements
-1. Have administrator account to revise record and handle user account.
-2. Email function can be added to allow user to send email to the clinic related to the inspection finding and regulatory action details.
+1. Create an administrator account to revise records and handle user accounts and insert row in clinic profolio when there are new clinics in the future. 
+2. Email function can be added to allow users to send email to the clinic related to the inspection finding and regulatory action details.
 3. Enrich the database by adding more columns to log more information in the system
+
