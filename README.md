@@ -17,7 +17,7 @@ New user is required to register to the webpage. Every user has his/her own uniq
 In a real working enviornment, an inspector is assigned to routinely perform inspection to a list of clinics which is under his/her purview. Therefore, in each user's account, the homepage only displays the clinic profolio that is handled by the user. A user is not able to view the clinic profolio of another user.
 
 4. Inspection finding
-User can input the information like clinic number, clinic name, inspection finding, inspection date and regulatory action taken to the clinic in the system.
+User can input the information like clinic number, clinic name, inspection finding, inspection date and regulatory action taken to the clinic in the system. During inspection, irregularity may be revealed by inspector. Inspection is required to accurately record the type of irregularity, regulatory action taken, and the inspection date as a official record.
 
 5. History
 User can view the history of the inspection finding and regulatory action taken of each clinic that was input previously in the inspection finding function. 
