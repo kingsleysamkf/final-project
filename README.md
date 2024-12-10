@@ -2,7 +2,7 @@
 ### Video Demo: <https://youtu.be/LkOVBj6YnyI> CS50xfinal_Sam King Fung .mp4
 ## Description: 
 cs50x final project: Clinic Inspection and Regulatory Record System
-This project is a web-based application to provide an electronic system for recording clinic inspection findings and regulatory actions issued to the clinic by regualatory body. It is designed for clinic inspectors of regulatory body who are required to conduct routine inspection in the healthcare facilities like clinics. The system provides an user interface to inspectors(user), when there is irregularity or area to be improved related to patient safety issue, inspector can record the information in the system after the inspection. The date is stored in SQL database which is easy for data analysis and data retrieval. 
+This project is a web-based application to provide an electronic system for recording clinic inspection findings and regulatory actions issued to the clinic by regulatory body. It is designed for clinic inspectors of regulatory body who are required to conduct routine inspection in the healthcare facilities like clinics. The system provides an user interface to inspectors(user), when there is irregularity or area to be improved related to patient safety issue, inspector can record the information in the system after the inspection. The date is stored in SQL database which is easy for data analysis and data retrieval. 
 
 ### Technologies used:
 It makes use of the JavaScript, Python, SQL and Flask as key elements of the technical basis. 
