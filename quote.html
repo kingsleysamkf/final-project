@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+        <h2>Quote clinic info</h2>
+        <form action={{ url_for('quote')}} method="post">
+            <label for="clinic_number">clinic_number</label>
+            <input type="integer" name="clinic_number" id="clinic_number" placeholder="clinic_number">
+            <button type="submit">Get clinic info</button>
+        </form>
+        {% if quote%}
+            <h3>{{ quote['name']}}({{ quote['clinic_number']}})</h3>
+            <p>name: {{ quote['name'] }}</p>
+            <p>service: {{ quote['service'] }}</p>
+            <p>number_of_room: {{ quote['number_of_room'] }}</p>
+        {% endif%}
+{% endblock %}

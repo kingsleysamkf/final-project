@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    finding
+{% endblock %}
+
+{% block main %}
+    <h1>Inspection_finding</h1>
+    <form action="{{ url_for('finding') }}" method="post">
+        <label for="clinic_number">Clinic Number:</label>
+        <input type="integer" name="clinic_number" id="clinic_number">
+        <br>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+        <br>
+        <label for="inspection_finding">Inspection finding:</label>
+        <input type="text" name="inspection_finding" id="inspection_finding">
+        <br>
+        <label for="regulatory_action">Regulatory Action:</label>
+        <input type="text" name="regulatory_action" id="regulatory_action">
+        <br>
+        <label for="inspection_date">Inspection Date:</label>
+        <input type="text" name="inspection_date" id="inspection_date">
+        <br>
+        <button type ="submit" class="btn btn-primary">Submit</button>
+    </form>
+{% endblock %}
